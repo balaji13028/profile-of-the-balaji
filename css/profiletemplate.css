@@ -1,0 +1,139 @@
+.profile-details {
+text-align: center;
+color: white;
+
+}
+.profile-role {
+    color: lightgray;
+}
+.profile-details img {
+    width: 180px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid;
+    margin-top: 35px;    
+}
+html,body {
+    background-image: url(/home/smssol1/Downloads/Resume/images/tm-bg-slide-1.jpg);
+    font-size: 16px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: serif;
+    
+}
+.social-icons {
+    
+    margin-left: 41%;
+    
+  }
+  .social-icons li {
+    display: inline-block;
+    list-style: none;
+    
+  }
+  .social-icons li a {
+    background: lightsteelblue;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.4s ease-in;
+    position: relative;
+    margin: 20px 0;
+
+  }
+  .social-icons li a:hover {
+    background: #202020;
+    color: #fff;
+  }
+  .objective-sec {
+      background-color: #fff;
+      padding: 8px 25px 133px 25px;
+      margin-top: 40px;
+  }
+  .skills-sec {
+      background-color: lightsteelblue;
+      color: #202020;
+      padding: 8px 25px 40px 25px;
+      margin-top: 40px;
+  }
+  .progress {
+      height: 5px;      
+  }
+
+  /* --- eduction section -----*/
+  .eduction-sec {
+    background-color:lightsteelblue;
+    color: #202020;
+    padding: 8px 25px 28px 25px;
+    margin-top: 40px;
+  }
+  .edu-school {
+      display:inline-flex;
+    
+  }
+  .edu-school h4 {
+      padding-right: 35px;
+  }
+  /* ---- language section ----*/ 
+  .languages-sec {
+    background-color: #fff;
+      padding: 8px 25px 10px 25px;
+      margin-top: 40px;
+  }
+  .languages-sec ul {
+      padding-left: 18px;
+  }
+  /* ----- grid section ---- */
+  .grid-sec{
+    display:inline-block;
+    overflow: auto;
+    height: 230px;
+  }
+  .grid-sec::-webkit-scrollbar-button{
+     display: none;       
+  }
+  .grid-sec::-webkit-scrollbar-thumb{
+    border-radius: 25px;
+  }
+
+  .img-grid {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .contact-sec{
+    background-color: #fff;
+    padding: 8px 25px 85px 25px;
+    margin-top: 40px;
+  }
+ 
+  /*--- experience section----*/
+  .experience-sec {
+    background-color: lightsteelblue;
+    color: #202020;
+    padding: 8px 25px 58px 25px;
+    margin-top: 40px;
+  }
+  .experience-content h4{
+     font-size: 20px;
+     color: aliceblue;
+    
+  }
+  .experience-content h5{
+     font-size: 18px; 
+  }
+  .experience-content h6{
+      font-size: 17px;
+  }
+  .footer {
+      text-align: center;
+      color: #fff;
+      margin-top: 60px;
+  }
